@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "after-hour-teams-backend"
+
+[packages]
+django = "*"
+psycopg2-binary = "*"
+djangorestframework = "*"
+django-jsonview = "*"
+requests = "*"
+environ = "*"
+django-cors-headers = "*"
+django-rest-auth = "*"
+django-environ = "*"
+django-shortuuidfield = "*"
+django-model-utils = "*"
+django-annoying = "*"
+pytest = "*"
+pytest-django = "*"
+
+[requires]
+python_version = "3.7.10"
